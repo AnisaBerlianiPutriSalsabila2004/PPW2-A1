@@ -1,3 +1,27 @@
+public function testfungsi(){
+    return view('about', [
+        "title" => "About",
+        "name" => "Alsa",
+        "email" => "anisab464@gmail.com"
+    ]); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,3 +41,4 @@
         <script src="js/script.js"></script>
     </body>
 </html>
+
